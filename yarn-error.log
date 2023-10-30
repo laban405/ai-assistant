@@ -1,0 +1,108 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\laban\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\laban\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\laban\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\flutter\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\laban\AppData\Local\Pub\Cache\bin;C:\Users\laban\AppData\Roaming\npm;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Python310;C:\Users\laban\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\laban\AppData\Local\pnpm;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\laban\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laban\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\laban\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\cmd;C:\Windows\System32;C:\flutter\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\laban\AppData\Local\Pub\Cache\bin;C:\Program Files\Lens\resources\cli\bin;C:\Python310;C:\Users\laban\AppData\Local\Programs\Python\Python311\Scripts;C:\apache-maven-3.9.4\bin;C:\apache-ant-1.10.14\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mdi-react/-/mdi-react-8.6.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\laban\AppData\Roaming\nvm\v16.20.0\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:839:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at TLSSocket.Socket._onTimeout (node:net:550:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "NODE_ENV=production node server.js",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@ckeditor/ckeditor5-build-classic": "^34.1.0",
+      "@ckeditor/ckeditor5-react": "^5.0.2",
+      "@ckeditor/ckeditor5-source-editing": "^35.4.0",
+      "@hookform/resolvers": "^2.9.11",
+      "@paypal/react-paypal-js": "^7.8.3",
+      "@react-pdf/renderer": "^3.1.9",
+      "@reduxjs/toolkit": "^1.9.3",
+      "@stripe/react-stripe-js": "^2.1.0",
+      "@stripe/stripe-js": "^1.53.0",
+      "adm-zip": "^0.5.10",
+      "apexcharts": "^3.40.0",
+      "aws-sdk": "^2.1395.0",
+      "axios": "^0.27.2",
+      "bcrypt": "^5.1.0",
+      "bootstrap": "^5.1.3",
+      "cloudinary": "^1.37.1",
+      "draft-js": "^0.11.7",
+      "file-saver": "^2.0.5",
+      "formidable": "^2.1.1",
+      "html2canvas": "^1.4.1",
+      "jspdf": "^2.5.1",
+      "jspdf-autotable": "^3.5.29",
+      "mdi-react": "^8.4.0",
+      "mic-recorder-to-mp3": "^2.2.2",
+      "moment": "^2.29.4",
+      "moment-timezone": "^0.5.40",
+      "next": "^13.1.1",
+      "next-auth": "^4.22.1",
+      "next-i18next": "^11.0.0",
+      "next-translate": "^1.5.0",
+      "nextjs-progressbar": "^0.0.16",
+      "nodemailer": "^6.8.0",
+      "openai": "^3.2.1",
+      "razorpay": "^2.8.6",
+      "react": "^18.2.0",
+      "react-apexcharts": "^1.4.0",
+      "react-countup": "^6.4.2",
+      "react-dom": "^18.2.0",
+      "react-draft-wysiwyg": "^1.15.0",
+      "react-dropzone": "^14.2.1",
+      "react-flatpickr": "^3.10.12",
+      "react-hook-form": "^7.43.1",
+      "react-query": "^3.39.1",
+      "react-select": "^5.3.2",
+      "react-table": "^7.8.0",
+      "react-tagsinput": "^3.20.0",
+      "react-toastify": "^9.0.8",
+      "react-tsparticles": "^2.0.6",
+      "reactstrap": "^9.1.1",
+      "sass": "^1.52.3",
+      "serverless-mysql": "^1.5.4",
+      "sharp": "^0.32.1",
+      "simplebar-react": "^2.4.3",
+      "stripe": "^12.6.0",
+      "swiper": "^8.4.5",
+      "swr": "^1.3.0",
+      "yup": "^0.32.11"
+    },
+    "devDependencies": {
+      "eslint": "8.17.0",
+      "eslint-config-next": "^13.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
