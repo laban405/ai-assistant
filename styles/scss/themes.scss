@@ -4,6 +4,9 @@
 @import "../scss/config/default/custom.scss";
 @import "./shepherd.css";
 @import "./mermaid.min.css";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 //RTL
 // @import "../scss/rtl/components-rtl";
