@@ -26,18 +26,18 @@ export default async function handler(req, res) {
         }
 
         try {
-            // const response = await api.post(url, data);
-            // if (response.success === true) {
+            const response = await api.post(url, data);
+            if (response.success === true) {
                 res.status(200).json({
                     message: 'congratulations! your purchase details is valid.', error: false
                 });
-            // } else {
-            //     const message = Helper.getErrorByStatusCode(response, data);
-            //     res.status(200).json({
-            //         message: message || 'Purchase details does not exist. please check your purchase details and try again.',
-            //         error: true
-            //     });
-            // }
+            } else {
+                const message = Helper.getErrorByStatusCode(response, data);
+                res.status(200).json({
+                    message: message || 'Purchase details does not exist. please check your purchase details and try again.',
+                    error: true
+                });
+            }
         } catch (error) {
             // Handle any errors
             console.error(error);
